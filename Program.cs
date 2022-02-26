@@ -60,7 +60,7 @@ while (true)
                 File.Delete(file);
             }
 
-            Console.WriteLine("Script has been executed. Do you like to run it again? (y/n)");
+            Console.WriteLine("Script has been executed. Do you want to run it again? (y/n)");
             if (Console.ReadKey().Key == ConsoleKey.Y) continue;
             else break;
         }
